@@ -1,0 +1,22 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "Note-taking application using NodeJS with the file system.",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notes",
+    "nodejs",
+    "file-system"
+  ],
+  "author": "Wayne Riesterer <wayne.paul.riesterer@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "validator": "^11.0.0",
+    "yargs": "^13.2.4"
+  }
+}
